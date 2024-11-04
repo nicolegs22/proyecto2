@@ -112,22 +112,22 @@ nav {
 }
 
 .project-title h3 {
-    font-size: 48px; /* Tamaño del subtítulo */
+    font-size: 48px; 
     font-weight: bold;
     color: #333;
-    margin-top: 10px; /* Espacio entre los títulos */
+    margin-top: 10px; 
     text-align: center;
 }
 
 .project-gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     gap: 20px;
 }
 
 .project-item {
-    width: 500px;
+    width: 300px;
     text-align: left;
 }
 
