@@ -1,0 +1,174 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    position: relative;
+    background: url('gallery/danielle-cerullo-CQfNt66ttZM-unsplash.jpg') no-repeat center center/cover;
+    color: #fff5f5;
+    padding: 100px 0;
+    text-align: left;
+    background-attachment: fixed;
+}
+
+nav {
+    text-align: right;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu > li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #f1efef;
+    padding: 10px 15px;
+    display: block;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background: #333;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+.submenu a {
+    padding: 10px;
+    color: #111010;
+}
+
+.cta {
+    background: #ff4081;
+    color: rgb(3, 3, 3);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about-us {
+    text-align: center;
+    padding: 20px;
+    background: #ffffff;
+    margin: 20px auto;
+    max-width: 100vw;
+    border-radius: 0px;
+    box-shadow: none rgba(0, 0, 0, 0.2);
+}
+
+#servicios {
+    padding: 50px 20px;
+    background: url('gallery/victor-freitas-WvDYdXDzkhs-unsplash.jpg') no-repeat center center/cover;
+    color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    background-attachment: fixed;
+}
+
+#servicios h2 {
+    font-size: 36px;
+    color: #ff4081;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.servicio {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 2px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.servicio h3 {
+    font-size: 24px;
+    color: #e2b007;
+}
+
+.servicio p {
+    color: #f4f4f4;
+}
+
+.projects-section {
+    background-color: #f0eff3;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.project-title h3 {
+    font-size: 48px; /* Tamaño del subtítulo */
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px; /* Espacio entre los títulos */
+    text-align: center;
+}
+
+.project-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 20px;
+}
+
+.project-item {
+    width: 500px;
+    text-align: left;
+}
+
+.project-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.project-item p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.footer {
+    background: #3229b4;
+    color: rgb(84, 84, 228);
+    padding: 30px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-column h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-column p {
+    margin: 5px 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    color: #2719a1;
+}
