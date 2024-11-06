@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    position: relative;
+    background: url('gallery/istockphoto-2075354173-612x612.jpg') no-repeat center center/cover;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px;
+    color: white;
+    background-attachment: fixed;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: #ff6347;
+}
+
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.section h1, .section h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about {
+    background: #ffe4e1;
+}
+
+.services, .trainers {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.project-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.service-box, .trainer-box {
+    width: 300px;
+    padding: 20px;
+    margin: 15px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.service-box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.service-text {
+    max-width: 800px;
+    margin: 30px auto;
+    text-align: center;
+    color: #555;
+}
+
+.service-text h3 {
+    color: #333;
+    margin-top: 20px;
+}
+
+.service-text p {
+    margin: 10px 0;
+    color: #666;
+}
+
+h3 {
+    margin-top: 15px;
+    color: #ff6347;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #ff6347;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}

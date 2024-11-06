@@ -1,0 +1,125 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Portada */
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-attachment: fixed;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+/* Introducción */
+.intro {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Datos */
+.facts {
+    background-color: #f4f4f4;
+    padding: 40px;
+    text-align: center;
+}
+
+.fact-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.fact-item {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/* Amor por la naturaleza */
+.love-nature, .gift {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Llamada a la acción */
+.call-to-action {
+    background-color: #333;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.cta-button {
+    background-color: #66bb6a;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 20px;
+    min-width: 200px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 0.9em;
+}
